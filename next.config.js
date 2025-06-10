@@ -13,8 +13,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Вимкнення перевірок для швидшої збірки
-  swcMinify: true,
   reactStrictMode: false,
 };
 
