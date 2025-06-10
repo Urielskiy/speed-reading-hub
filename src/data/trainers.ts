@@ -1,4 +1,4 @@
-import { getAssetPath } from '@/utils/pathUtils';
+
 
 export interface Trainer {
   id: string;
@@ -17,7 +17,7 @@ export const trainers: Trainer[] = [
     id: "crocodile-speed-reader",
     title: "Тренажер \"Крокодил\"",
     description: "Тренажер для швидкісного читання, для розвитку лінійного читання",
-    imageUrl: "/icons/crocodile.svg",
+    imageUrl: "https://urielskiy.github.io/speed-reading-hub/icons/crocodile.svg",
     launchUrl: "https://urielskiy.github.io/crocodile-speed-reader/",
     infoUrl: "/trainers/crocodile-speed-reader",
     repoUrl: "https://github.com/Urielskiy/crocodile-speed-reader.git",
@@ -34,7 +34,7 @@ export const trainers: Trainer[] = [
     id: "speed-reading-trainer",
     title: "Тренажер \"Широкого погляду\"",
     description: "Тренажер для тренування считувати цілі слова та словосполучення",
-    imageUrl: "/icons/speedway.svg",
+    imageUrl: "https://urielskiy.github.io/speed-reading-hub/icons/speedway.svg",
     launchUrl: "https://urielskiy.github.io/speed-reading-trainer/#/",
     infoUrl: "/trainers/speed-reading-trainer",
     repoUrl: "https://github.com/Urielskiy/speed-reading-trainer",
@@ -50,7 +50,7 @@ export const trainers: Trainer[] = [
     id: "schulte-table",
     title: "Таблиці Шульте",
     description: "Тренажер для розвитку периферійного зору та концентрації уваги",
-    imageUrl: "/icons/schulte-table.svg",
+    imageUrl: "https://urielskiy.github.io/speed-reading-hub/icons/schulte-table.svg",
     launchUrl: "https://urielskiy.github.io/schulte-table/",
     infoUrl: "/trainers/schulte-table",
     repoUrl: "https://github.com/Urielskiy/schulte-table",
@@ -66,7 +66,7 @@ export const trainers: Trainer[] = [
     id: "studio-master",
     title: "Тренажер \"Око в центрі\"",
     description: "Тренажер для покращення швидкості читання за допомогою різних технік вертикального читання",
-    imageUrl: "/icons/eye-of-horus.svg",
+    imageUrl: "https://urielskiy.github.io/speed-reading-hub/icons/eye-of-horus.svg",
     launchUrl: "https://urielskiy.github.io/Eye_Center/",
     infoUrl: "/trainers/studio-master",
     repoUrl: "https://github.com/Urielskiy/studio-master",
