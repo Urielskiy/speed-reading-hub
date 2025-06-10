@@ -1,3 +1,5 @@
+import { getAssetPath } from '@/utils/pathUtils';
+
 export interface Trainer {
   id: string;
   title: string;

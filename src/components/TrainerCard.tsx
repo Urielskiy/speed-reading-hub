@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
+import { getAssetPath } from '@/utils/pathUtils';
 
 interface TrainerCardProps {
   title: string;
@@ -59,7 +60,7 @@ export default function TrainerCard({
           transition: 'opacity 0.3s ease'
         }} />
         <Image
-          src={imageUrl}
+          src={getAssetPath(imageUrl)}
           alt={title}
           width={120}
           height={120}
