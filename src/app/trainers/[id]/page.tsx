@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { trainers } from '@/data/trainers';
-import TrainerButtons from '@/components/TrainerButtons';
 import TrainerTextLinks from '@/components/TrainerTextLinks';
 
 interface TrainerPageProps {

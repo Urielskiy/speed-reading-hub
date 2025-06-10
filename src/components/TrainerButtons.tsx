@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 
 interface TrainerButtonsProps {
   launchUrl: string;
@@ -18,13 +19,13 @@ export default function TrainerButtons({ launchUrl }: TrainerButtonsProps) {
       >
         Запустити тренажер
       </a>
-      <a 
+      <Link 
         href="/" 
         className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors border border-gray-300 bg-white text-gray-700 shadow-sm hover:bg-gray-100 h-10 px-6 py-2 cursor-pointer"
         style={{ textDecoration: 'none' }}
       >
         Назад
-      </a>
+      </Link>
     </div>
   );
 }

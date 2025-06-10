@@ -1,26 +1,21 @@
 "use client";
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useState } from 'react';
 
 interface TrainerCardProps {
-  id: string;
   title: string;
   description: string;
   imageUrl: string;
   launchUrl: string;
-  infoUrl: string;
   features: string[];
 }
 
 export default function TrainerCard({
-  id,
   title,
   description,
   imageUrl,
   launchUrl,
-  infoUrl,
   features
 }: TrainerCardProps) {
   const [isHovered, setIsHovered] = useState(false);

@@ -1,6 +1,5 @@
 import { trainers } from '@/data/trainers';
 import TrainerCard from '@/components/TrainerCard';
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -43,12 +42,10 @@ export default function Home() {
           {trainers.map((trainer) => (
             <TrainerCard
               key={trainer.id}
-              id={trainer.id}
               title={trainer.title}
               description={trainer.description}
               imageUrl={trainer.imageUrl}
               launchUrl={trainer.launchUrl}
-              infoUrl={trainer.infoUrl}
               features={trainer.features}
             />
           ))}

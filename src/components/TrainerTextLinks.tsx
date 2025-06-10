@@ -18,12 +18,12 @@ export default function TrainerTextLinks({ launchUrl }: TrainerTextLinksProps) {
       >
         Запустити тренажер
       </a>
-      <a 
+      <Link 
         href="/" 
         className="text-blue-600 hover:text-blue-800 font-medium ml-4 underline"
       >
         Назад
-      </a>
+      </Link>
     </div>
   );
 }
