@@ -65,8 +65,8 @@ export const trainers: Trainer[] = [
   {
     id: "schulte-letter-tables",
     title: "Буквена Таблиця Шульте",
-    description: "Тренажер для розвитку периферійного зору та концентрації уваги з використанням букв",
-    imageUrl: "https://urielskiy.github.io/speed-reading-hub/icons/schulte-letter.svg",
+    description: "Тренажер для розвитку периферійного зору та концентрації уваги з використанням букв українського та англійського алфавіту",
+    imageUrl: "/icons/schulte-letter.svg",
     launchUrl: "https://urielskiy.github.io/schulte-letter-tables/",
     infoUrl: "/trainers/schulte-letter-tables",
     repoUrl: "https://github.com/Urielskiy/schulte-letter-tables",

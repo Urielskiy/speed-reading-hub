@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background grid -->
-  <rect x="56" y="56" width="400" height="400" rx="20" fill="#6366F1" fill-opacity="0.1" stroke="#6366F1" stroke-width="8"/>
+  <!-- Background grid with better contrast -->
+  <rect x="56" y="56" width="400" height="400" rx="20" fill="#6366F1" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="8"/>
   
   <!-- Grid lines -->
-  <line x1="189" y1="56" x2="189" y2="456" stroke="#6366F1" stroke-width="4" stroke-opacity="0.5"/>
-  <line x1="323" y1="56" x2="323" y2="456" stroke="#6366F1" stroke-width="4" stroke-opacity="0.5"/>
-  <line x1="56" y1="189" x2="456" y2="189" stroke="#6366F1" stroke-width="4" stroke-opacity="0.5"/>
-  <line x1="56" y1="323" x2="456" y2="323" stroke="#6366F1" stroke-width="4" stroke-opacity="0.5"/>
+  <line x1="156" y1="56" x2="156" y2="456" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.7"/>
+  <line x1="256" y1="56" x2="256" y2="456" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.7"/>
+  <line x1="356" y1="56" x2="356" y2="456" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.7"/>
+  <line x1="56" y1="156" x2="456" y2="156" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.7"/>
+  <line x1="56" y1="256" x2="456" y2="256" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.7"/>
+  <line x1="56" y1="356" x2="456" y2="356" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.7"/>
   
-  <!-- Letters -->
-  <text x="122" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#6366F1">А</text>
-  <text x="256" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#8B5CF6">Б</text>
-  <text x="390" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#6366F1">В</text>
+  <!-- Letters with white color for better visibility -->
+  <text x="106" y="120" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">А</text>
+  <text x="206" y="120" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Б</text>
+  <text x="306" y="120" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">В</text>
+  <text x="406" y="120" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Г</text>
   
-  <text x="122" y="256" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#8B5CF6">Г</text>
-  <text x="256" y="256" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#6366F1">Д</text>
-  <text x="390" y="256" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#8B5CF6">Е</text>
+  <text x="106" y="220" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Д</text>
+  <text x="206" y="220" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Е</text>
+  <text x="306" y="220" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Є</text>
+  <text x="406" y="220" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Ж</text>
   
-  <text x="122" y="390" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#6366F1">Є</text>
-  <text x="256" y="390" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#8B5CF6">Ж</text>
-  <text x="390" y="390" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#6366F1">З</text>
+  <text x="106" y="320" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">З</text>
+  <text x="206" y="320" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">И</text>
+  <text x="306" y="320" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Й</text>
+  <text x="406" y="320" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">К</text>
+  
+  <text x="106" y="420" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Л</text>
+  <text x="206" y="420" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">М</text>
+  <text x="306" y="420" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">Н</text>
+  <text x="406" y="420" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">О</text>
 </svg>
