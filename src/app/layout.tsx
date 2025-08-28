@@ -18,6 +18,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Тренажери Швидкочитання",
   description: "Колекція тренажерів для розвитку навичок швидкого читання",
+  icons: {
+    icon: "/pyramid-favicon.svg",
+    apple: "/pyramid-favicon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -27,12 +31,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uk">
+      <head>
+        <link rel="icon" href="/pyramid-favicon.svg" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <div className="flex flex-col min-h-screen">
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

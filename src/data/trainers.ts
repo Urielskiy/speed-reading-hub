@@ -96,5 +96,22 @@ export const trainers: Trainer[] = [
       "Інтеграція з Firebase для зберігання даних",
       "Статистика прочитаного тексту"
     ]
+  },
+  {
+    id: "text-shower",
+    title: "Текстовий душ",
+    description: "Тренажер для розширення погляду, навчання швидкому вертикальному читанню, а також покращення концентрації та уваги",
+    imageUrl: "/icons/text-shower.svg",
+    launchUrl: "https://urielskiy.github.io/text-shower/",
+    infoUrl: "/trainers/text-shower",
+    repoUrl: "https://github.com/Urielskiy/text-shower",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    features: [
+      "Вертикальне читання тексту",
+      "Розширення поля зору",
+      "Покращення концентрації",
+      "Тренування швидкості сприйняття",
+      "Розвиток уваги"
+    ]
   }
 ];
